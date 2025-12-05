@@ -1,5 +1,7 @@
 {
   "/api/station/[id]/route": "app/api/station/[id]/route.js",
+  "/api/flow/[id]/route": "app/api/flow/[id]/route.js",
+  "/api/waterlevel/[id]/route": "app/api/waterlevel/[id]/route.js",
   "/page": "app/page.js",
   "/iframe/page": "app/iframe/page.js"
 }

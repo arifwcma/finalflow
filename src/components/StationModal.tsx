@@ -136,9 +136,8 @@ export default function StationModal({
     ? `https://www.google.com/maps?q=${coords.lat},${coords.lng}`
     : "#";
 
-  const googleMapsEmbedUrl = coords
-    ? `https://www.google.com/maps/embed/v1/place?key=REDACTED&q=${coords.lat},${coords.lng}&zoom=14`
-    : "";
+  // Note: For production, use Google Maps Embed API with proper API key in env variable
+  // For now, using the free embed without API key
 
   return (
     <div className="modal-overlay" onClick={onClose}>

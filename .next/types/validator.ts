@@ -65,6 +65,24 @@ type RouteHandlerConfig<Route extends AppRouteHandlerRoutes = AppRouteHandlerRou
   type __Unused = __Check
 }
 
+// Validate ../../src/app/api/conductivity/[id]/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/conductivity/[id]">> = Specific
+  const handler = {} as typeof import("../../src/app/api/conductivity/[id]/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
+// Validate ../../src/app/api/dissolvedoxygen/[id]/route.ts
+{
+  type __IsExpected<Specific extends RouteHandlerConfig<"/api/dissolvedoxygen/[id]">> = Specific
+  const handler = {} as typeof import("../../src/app/api/dissolvedoxygen/[id]/route.js")
+  type __Check = __IsExpected<typeof handler>
+  // @ts-ignore
+  type __Unused = __Check
+}
+
 // Validate ../../src/app/api/flow/[id]/route.ts
 {
   type __IsExpected<Specific extends RouteHandlerConfig<"/api/flow/[id]">> = Specific

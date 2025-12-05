@@ -30,6 +30,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/iframe/page.js"
+    ],
+    "/api/dissolvedoxygen/[id]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/dissolvedoxygen/[id]/route.js"
+    ],
+    "/api/conductivity/[id]/route": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/api/conductivity/[id]/route.js"
     ]
   }
 }

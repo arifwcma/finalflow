@@ -11,9 +11,11 @@ body {
   color: rgb(var(--foreground-rgb));
   background: rgb(var(--background-rgb));
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-/* Map Container Styles */
+/* Map Container Styles - matching original RiverChartsContainer */
 .map-container {
   width: 100%;
   position: relative;
@@ -147,7 +149,7 @@ body {
   text-align: right;
 }
 
-/* Responsive */
+/* Responsive - matching original breakpoint */
 @media (max-width: 786px) {
   .map-key,
   .map-arrow {
@@ -205,6 +207,7 @@ body {
 .station-list {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .station-list-item {

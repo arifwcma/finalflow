@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "River Flows Map | Wimmera CMA",
+  title: "River Flows Map",
   description: "Current river flows at monitoring gauges across the Wimmera region",
 };
 
@@ -21,8 +21,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body className="m-0 p-0">{children}</body>
     </html>
   );
 }
-
